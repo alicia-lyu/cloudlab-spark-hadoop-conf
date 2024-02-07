@@ -1,4 +1,4 @@
-# Modified files
+# Environment Setup: Modified files
 
 In `/hadoop-3.3.6/etc/hadoop`:
 
