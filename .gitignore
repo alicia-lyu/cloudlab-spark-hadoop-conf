@@ -1,0 +1,16 @@
+# Exclude everything
+*
+
+# Include spark and hadoop directories
+!.gitignore
+!/spark-3.3.4-bin-hadoop3/
+!/hadoop-3.3.6/
+
+# Explicitly ignore everything inside these directories
+/spark-3.3.4-bin-hadoop3/*
+/hadoop-3.3.6/*
+
+# Re-include specific subdirectories
+!/spark-3.3.4-bin-hadoop3/conf/
+!/hadoop-3.3.6/etc/
+
